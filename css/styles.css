@@ -1,43 +1,84 @@
 html {
-  box-sizing: border-box;
-  height: 100%;
-  scroll-behavior: smooth;
+	box-sizing: border-box;
+	height: 100%;
+	scroll-behavior: smooth;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+/* Fonts */
+
+@font-face {
+	font-family: "Nunito Sans";
+	src: url("../fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf")
+		format("truetype");
+	font-weight: 100 900;
+	font-stretch: 75% 125%;
+}
+
+@font-face {
+	font-family: "Inter";
+	src: url("../fonts/Inter-VariableFont_opsz\,wght.ttf") format("truetype");
+	font-weight: 100 900;
+	font-stretch: 75% 125%;
+}
+
+@font-face {
+	font-family: "Nunito";
+	src: url("../fonts/Nunito-VariableFont_wght.ttf") format("truetype");
+	font-weight: 100 900;
+	font-stretch: 75% 125%;
+}
+
+@font-face {
+	font-family: "Nunito";
+	src: url("../fonts/Recoleta\ SemiBold.otf") format("truetype");
+	font-weight: 100 900;
+	font-stretch: 75% 125%;
+}
+
+@font-face {
+	font-family: "Recoleta";
+	src: url("../fonts/Recoleta-RegularDEMO.woff2") format("woff2"),
+		url("../fonts/Recoleta-RegularDEMO.woff") format("woff"),
+		url("../fonts/Recoleta-RegularDEMO.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  background-color: #fff;
-  color: #222;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "Nunito Sans", Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.5;
+	background-color: #f6f5f1;
+	color: #395852;
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+	max-width: 100%;
+	height: auto;
 }
-
 
 /* VISUALLY-HIDDEN */
 .visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
 }
 
 /* AUTOFILL COLORS
@@ -56,7 +97,6 @@ select:-webkit-autofill:focus {
   transition: background-color 5000s ease-in-out 0s;
 }  */
 
-
 /* PLACEHOLDER COLOR
 ::-webkit-input-placeholder,
 ::-moz-placeholder,
@@ -68,25 +108,24 @@ select:-webkit-autofill:focus {
 /* CONTAINER */
 
 .container {
-  width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-left: auto;
-  margin-right: auto;
+	width: 100%;
+	max-width: 1232px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: auto;
+	margin-right: auto;
 }
-
 
 /* MAIN CONTENT */
 .main-content {
-  flex-grow: 1;
+	flex-grow: 1;
 }
-
 
 /* RETINA BACKGROUNDS */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (min-device-pixel-ratio: 2),
-only screen and (min-resolution: 192dpi),
-only screen and (min-resolution: 2dppx) {}
+	only screen and (min--moz-device-pixel-ratio: 2),
+	only screen and (-o-min-device-pixel-ratio: 2/1),
+	only screen and (min-device-pixel-ratio: 2),
+	only screen and (min-resolution: 192dpi),
+	only screen and (min-resolution: 2dppx) {
+}
