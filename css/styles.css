@@ -14,7 +14,8 @@ html {
 
 @font-face {
 	font-family: "Nunito Sans";
-	src: url("../fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf") format("truetype");
+	src: url("../fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf")
+		format("truetype");
 	font-weight: 100 900;
 	font-stretch: 75% 125%;
 }
@@ -62,6 +63,7 @@ body {
 	line-height: 1.5;
 	background-color: #f6f5f1;
 	color: #395852;
+	letter-spacing: -0.4px;
 }
 
 img {
@@ -78,6 +80,29 @@ img {
 	position: absolute;
 	white-space: nowrap;
 	width: 1px;
+}
+
+/* Main link */
+.main-link {
+	display: flex;
+	text-decoration: none;
+	padding: 12px 16px;
+	background-color: #163a34;
+	color: #fff;
+	border-radius: 10px;
+	font-family: Nunito, sans-serif;
+	font-size: 20px;
+	line-height: 1.4;
+	letter-spacing: -0.5px;
+	font-weight: bold;
+}
+
+.main-link:hover {
+	background-color: #395852;
+}
+
+.hero-content .main-link {
+	padding: 16px 32px;
 }
 
 /* AUTOFILL COLORS
@@ -122,17 +147,18 @@ select:-webkit-autofill:focus {
 
 /* RETINA BACKGROUNDS */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (min-device-pixel-ratio: 2),
-only screen and (min-resolution: 192dpi),
-only screen and (min-resolution: 2dppx) {}
-
+	only screen and (min--moz-device-pixel-ratio: 2),
+	only screen and (-o-min-device-pixel-ratio: 2/1),
+	only screen and (min-device-pixel-ratio: 2),
+	only screen and (min-resolution: 192dpi),
+	only screen and (min-resolution: 2dppx) {
+}
 
 /* Site header */
 
 .site-header {
 	padding: 20px 0;
+	border-bottom: 1px solid #e0e6e3;
 }
 
 .site-header-container {
@@ -155,7 +181,6 @@ only screen and (min-resolution: 2dppx) {}
 	opacity: 0.6;
 }
 
-
 .logo-img {
 	width: 260px;
 	height: 40px;
@@ -177,29 +202,70 @@ only screen and (min-resolution: 2dppx) {}
 	font-weight: 600;
 	font-family: Nunito, sans-serif;
 	font-size: 18px;
-	color: #163A34;
+	color: #163a34;
 	border-bottom: 3px solid transparent;
 }
 
 .sitenav-link:hover {
-	border-color: #FE9F6B;
+	border-color: #fe9f6b;
 }
 
-.site-header-actions {}
+.site-header-actions {
+}
 
-.main-link {
+/* Hero */
+
+.hero {
+	text-align: center;
+	padding: 74px 0 90px 0;
+}
+.hero-content {
 	display: flex;
-	text-decoration: none;
-	padding: 12px 16px;
-	background-color: #163A34;
-	color: #fff;
-	border-radius: 10px;
-	font-size: 18px;
-	line-height: 1.4;
-	font-weight: bold;
-	font-family: Nunito, sans-serif;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 80px;
 }
 
-.main-link:hover {
-	background-color: #395852;
+.hero-title {
+	font-size: 72px;
+	line-height: 1.1;
+	letter-spacing: -2px;
+	margin-top: 0;
+	margin-bottom: 12px;
+	font-weight: 800;
+	font-family: Nunito, sans-serif;
+	color: #163a34;
+}
+
+.highlight {
+	position: relative;
+	display: inline-block;
+}
+
+.highlight::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	width: 103%;
+	height: 0.6em;
+	background-color: #ffd9bf;
+	border-radius: 4px;
+	z-index: -1;
+}
+
+.hero-text {
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+
+.hero-image {
+	border: 6px solid white;
+	border-radius: 12px;
+}
+.hero-img {
+	display: block;
+	width: 1192px;
+	height: 530px;
+	border-radius: 12px;
+	object-fit: cover;
 }
