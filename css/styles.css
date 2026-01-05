@@ -100,6 +100,9 @@ img {
 .main-link:hover {
 	background-color: #395852;
 }
+.main-link:active {
+	opacity: 0.9;
+}
 
 .hero-content .main-link {
 	padding: 16px 32px;
@@ -218,6 +221,10 @@ select:-webkit-autofill:focus {
 .hero {
 	text-align: center;
 	padding: 74px 0 90px 0;
+	background-image: url("../images/pattern-squiggle-1.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
 }
 .hero-content {
 	display: flex;
@@ -268,4 +275,54 @@ select:-webkit-autofill:focus {
 	height: 530px;
 	border-radius: 12px;
 	object-fit: cover;
+}
+
+/* Benefits */
+
+.benefits {
+	padding-bottom: 96px;
+}
+.benefits-title {
+	text-align: center;
+	font-size: 48px;
+	line-height: 1.2;
+	letter-spacing: -2px;
+	font-weight: 800;
+	font-family: Nunito, sans-serif;
+	color: #163a34;
+	margin-top: 0;
+	margin-bottom: 48px;
+}
+.benefits-list {
+	display: flex;
+	gap: 32px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.benefits-item {
+	width: 376px;
+}
+.benefits-card {
+}
+.benefits-card-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	border-radius: 12px;
+	width: 60px;
+	height: 60px;
+	margin-bottom: 24px;
+}
+.benefits-card-title {
+	font-family: Nunito, sans-serif;
+	font-size: 32px;
+	line-height: 1.3;
+	letter-spacing: -1px;
+	margin-top: 0;
+	margin-bottom: 12px;
+}
+.benefits-card-text {
+	margin: 0;
 }
