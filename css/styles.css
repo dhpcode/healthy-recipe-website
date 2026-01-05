@@ -378,3 +378,31 @@ select:-webkit-autofill:focus {
 .advice-image img {
 	display: block;
 }
+
+
+/* CTA */
+
+.cta {
+  padding: 96px 0;
+  background-color: #E9EDE8;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../images/pattern-fork.svg'), url('../images/pattern-knife.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: left -75px bottom -20px, right -75px center;
+
+}
+.cta-heading {
+  font-family: Nunito, sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.cta-text {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
