@@ -147,6 +147,15 @@ only screen and (min-resolution: 2dppx) {}
 	display: flex;
 }
 
+.site-header-logo:hover {
+	opacity: 0.8;
+}
+
+.site-header-logo:active {
+	opacity: 0.6;
+}
+
+
 .logo-img {
 	width: 260px;
 	height: 40px;
