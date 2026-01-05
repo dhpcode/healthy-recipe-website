@@ -326,3 +326,55 @@ select:-webkit-autofill:focus {
 .benefits-card-text {
 	margin: 0;
 }
+
+/* Advice */
+
+.advice {
+	padding: 96px 0;
+	border-top: 1px solid #e0e6e3;
+	display: flex;
+	align-items: center;
+	gap: 48px;
+}
+.advice-content {
+}
+.advice-title {
+	font-weight: 800;
+	font-size: 48px;
+	letter-spacing: -3px;
+	line-height: normal;
+	color: #163a34;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+.advice-text {
+	margin-top: 0;
+	width: 509px;
+}
+
+.advice-content .highlight {
+	position: relative;
+	display: inline-block;
+}
+
+.advice-content .highlight::before {
+	content: "";
+	position: absolute;
+	bottom: 0.3em;
+	left: -0.1em;
+	width: 105%;
+	height: 0.58em;
+	background-color: #fe9f6b;
+	border-radius: 4px;
+	z-index: -1;
+}
+.advice-image {
+	width: 635px;
+	height: 450px;
+	border-radius: 16px;
+	overflow: hidden;
+}
+
+.advice-image img {
+	display: block;
+}
