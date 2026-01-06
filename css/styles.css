@@ -561,7 +561,6 @@ select:-webkit-autofill:focus {
 	margin: 0;
 }
 
-
 /* Our food philopsophy */
 
 .our-food-philosophy {
@@ -621,4 +620,47 @@ select:-webkit-autofill:focus {
 }
 .our-food-philosophy__item-text {
 	margin: 0;
+}
+
+/* Beyond the plate */
+
+.beyond-the-plate {
+	padding: 96px 0;
+}
+
+.beyond-the-plate__container {
+	display: flex;
+	gap: 64px;
+	align-items: center;
+}
+.beyond-the-plate__content {
+}
+.beyond-the-plate__title {
+	font-family: Nunito, sans-serif;
+	font-size: 48px;
+	font-weight: 800;
+	line-height: 1.2;
+	letter-spacing: -2px;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+.beyond-the-plate__text p {
+	margin-top: 0;
+	margin-bottom: 12px;
+}
+.beyond-the-plate__list {
+	margin: 0;
+	padding: 0;
+	padding-left: 20px;
+}
+.beyond-the-plate__item {
+}
+.beyond-the-plate__image {
+	flex: 0 0 744px;
+	height: 400px;
+}
+.beyond-the-plate__img {
+	display: block;
+	object-fit: cover;
+	border-radius: 12px;
 }
