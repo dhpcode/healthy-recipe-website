@@ -560,3 +560,65 @@ select:-webkit-autofill:focus {
 .why-we-exist__item-text {
 	margin: 0;
 }
+
+
+/* Our food philopsophy */
+
+.our-food-philosophy {
+	border-bottom: 1px solid #e0e6e3;
+}
+.our-food-philosophy__container {
+	padding: 96px 0;
+	display: flex;
+	gap: 64px;
+}
+
+.our-food-philosophy__title {
+	font-family: Nunito, sans-serif;
+	font-size: 48px;
+	font-weight: 800;
+	line-height: 1.2;
+	letter-spacing: -2px;
+	color: #163a34;
+	flex: 0 0 372px;
+	margin: 0;
+}
+
+.our-food-philosophy__list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 48px;
+}
+.our-food-philosophy__item {
+	display: flex;
+	gap: 20px;
+}
+.our-food-philosophy__item::before {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	content: "";
+	background-image: url("../images/icon-bullet-point.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	flex: 0 0 32px;
+}
+.our-food-philosophy__item-content {
+}
+
+.our-food-philosophy__item-title {
+	margin-top: 0;
+	margin-bottom: 12px;
+	font-family: Nunito, sans-serif;
+	line-height: 1.3;
+	font-size: 24px;
+	letter-spacing: -1px;
+	color: #163a34;
+}
+.our-food-philosophy__item-text {
+	margin: 0;
+}
