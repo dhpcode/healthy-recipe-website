@@ -664,3 +664,24 @@ select:-webkit-autofill:focus {
 	object-fit: cover;
 	border-radius: 12px;
 }
+
+/* RECIPES */
+/* RECIPES */
+/* RECIPES */
+
+/* Recipes Intro */
+
+.recipes-intro {
+	padding: 80px 230px 64px 230px;
+	text-align: center;
+}
+.recipes-intro-heading {
+	font-family: Nunito, sans-serif;
+	font-size: 48px;
+	line-height: 1.2;
+	letter-spacing: -2px;
+	font-weight: 800;
+	margin-top: 0;
+	margin-bottom: 12px;
+	color: #163a34;
+}
