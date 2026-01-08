@@ -814,9 +814,13 @@ only screen and (min-resolution: 2dppx) {}
 	letter-spacing: -0.3px;
 }
 
-.meal-infos-servings {}
+.meal-infos-servings {
+	margin-bottom: 8px;
+}
 
-.meal-infos-prep {}
+.meal-infos-prep {
+	margin-bottom: 8px;
+}
 
 .meal-infos-cook {}
 
