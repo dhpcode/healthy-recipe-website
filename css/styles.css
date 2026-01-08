@@ -790,6 +790,8 @@ only screen and (min-resolution: 2dppx) {}
 .card-meal-infos {
 	display: flex;
 	flex-wrap: wrap;
+	row-gap: 8px;
+	column-gap: 16px;
 	margin-bottom: 16px;
 }
 
@@ -797,7 +799,6 @@ only screen and (min-resolution: 2dppx) {}
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-right: 16px;
 }
 
 .meal-infos img {
@@ -814,19 +815,6 @@ only screen and (min-resolution: 2dppx) {}
 	letter-spacing: -0.3px;
 }
 
-.meal-infos-servings {
-	margin-bottom: 8px;
-}
-
-.meal-infos-prep {
-	margin-bottom: 8px;
-}
-
-.meal-infos-cook {}
-
-.main-link {}
-
-.button {}
 
 .recipe-button {
 	display: inline-block;
