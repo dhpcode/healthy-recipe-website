@@ -755,6 +755,7 @@ only screen and (min-resolution: 2dppx) {}
 	height: 300px;
 	margin-bottom: 16px;
 	overflow: hidden;
+	border-radius: 10px;
 }
 
 .card-img {
