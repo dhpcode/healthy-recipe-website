@@ -754,6 +754,7 @@ only screen and (min-resolution: 2dppx) {}
 	width: 360px;
 	height: 300px;
 	margin-bottom: 16px;
+	overflow: hidden;
 }
 
 .card-img {
@@ -762,6 +763,11 @@ only screen and (min-resolution: 2dppx) {}
 	width: 360px;
 	height: 300px;
 	object-fit: cover;
+	transition: transform 0.3s ease;
+}
+
+.card-img:hover {
+	transform: scale(1.05);
 }
 
 .card-content {
