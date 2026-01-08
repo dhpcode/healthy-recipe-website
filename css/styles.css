@@ -14,8 +14,7 @@ html {
 
 @font-face {
 	font-family: "Nunito Sans";
-	src: url("../fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf")
-		format("truetype");
+	src: url("../fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf") format("truetype");
 	font-weight: 100 900;
 	font-stretch: 75% 125%;
 }
@@ -100,6 +99,7 @@ img {
 .main-link:hover {
 	background-color: #395852;
 }
+
 .main-link:active {
 	opacity: 0.9;
 }
@@ -150,12 +150,11 @@ select:-webkit-autofill:focus {
 
 /* RETINA BACKGROUNDS */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
-	only screen and (min--moz-device-pixel-ratio: 2),
-	only screen and (-o-min-device-pixel-ratio: 2/1),
-	only screen and (min-device-pixel-ratio: 2),
-	only screen and (min-resolution: 192dpi),
-	only screen and (min-resolution: 2dppx) {
-}
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {}
 
 /* Site header */
 
@@ -213,8 +212,7 @@ select:-webkit-autofill:focus {
 	border-color: #fe9f6b;
 }
 
-.site-header-actions {
-}
+.site-header-actions {}
 
 /* Hero */
 
@@ -226,6 +224,7 @@ select:-webkit-autofill:focus {
 	background-position: center;
 	background-size: contain;
 }
+
 .hero-content {
 	display: flex;
 	flex-direction: column;
@@ -269,6 +268,7 @@ select:-webkit-autofill:focus {
 	border: 6px solid white;
 	border-radius: 12px;
 }
+
 .hero-img {
 	display: block;
 	width: 1192px;
@@ -282,6 +282,7 @@ select:-webkit-autofill:focus {
 .benefits {
 	padding-bottom: 96px;
 }
+
 .benefits-title {
 	text-align: center;
 	font-size: 48px;
@@ -293,6 +294,7 @@ select:-webkit-autofill:focus {
 	margin-top: 0;
 	margin-bottom: 48px;
 }
+
 .benefits-list {
 	display: flex;
 	gap: 32px;
@@ -300,11 +302,13 @@ select:-webkit-autofill:focus {
 	margin: 0;
 	padding: 0;
 }
+
 .benefits-item {
 	width: 376px;
 }
-.benefits-card {
-}
+
+.benefits-card {}
+
 .benefits-card-icon {
 	display: flex;
 	justify-content: center;
@@ -315,6 +319,7 @@ select:-webkit-autofill:focus {
 	height: 60px;
 	margin-bottom: 24px;
 }
+
 .benefits-card-title {
 	font-family: Nunito, sans-serif;
 	font-size: 32px;
@@ -323,6 +328,7 @@ select:-webkit-autofill:focus {
 	margin-top: 0;
 	margin-bottom: 12px;
 }
+
 .benefits-card-text {
 	margin: 0;
 }
@@ -336,8 +342,9 @@ select:-webkit-autofill:focus {
 	align-items: center;
 	gap: 48px;
 }
-.advice-content {
-}
+
+.advice-content {}
+
 .advice-title {
 	font-weight: 800;
 	font-size: 48px;
@@ -347,6 +354,7 @@ select:-webkit-autofill:focus {
 	margin-top: 0;
 	margin-bottom: 20px;
 }
+
 .advice-text {
 	margin-top: 0;
 	width: 509px;
@@ -368,6 +376,7 @@ select:-webkit-autofill:focus {
 	border-radius: 4px;
 	z-index: -1;
 }
+
 .advice-image {
 	width: 635px;
 	height: 450px;
@@ -393,6 +402,7 @@ select:-webkit-autofill:focus {
 	background-repeat: no-repeat, no-repeat;
 	background-position: left -75px bottom -20px, right -75px center;
 }
+
 .cta-heading {
 	font-family: Nunito, sans-serif;
 	font-size: 48px;
@@ -401,6 +411,7 @@ select:-webkit-autofill:focus {
 	margin-top: 0;
 	margin-bottom: 12px;
 }
+
 .cta-text {
 	margin-top: 0;
 	margin-bottom: 40px;
@@ -417,11 +428,13 @@ select:-webkit-autofill:focus {
 	justify-content: space-between;
 	align-items: center;
 }
+
 .footer-text {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: -0.3px;
 }
+
 .footer-socials-list {
 	list-style: none;
 	margin: 0;
@@ -429,6 +442,7 @@ select:-webkit-autofill:focus {
 	display: flex;
 	align-items: center;
 }
+
 .footer-socials-item:not(:last-child) {
 	margin-right: 24px;
 }
@@ -441,6 +455,7 @@ select:-webkit-autofill:focus {
 .footer-socials-link:hover {
 	opacity: 0.6;
 }
+
 .footer-socials-link:active {
 	opacity: 0.8;
 }
@@ -453,13 +468,16 @@ select:-webkit-autofill:focus {
 	padding: 80px 0 97px 0;
 	border-bottom: 1px solid #e0e6e3;
 }
+
 .about-hero-container {
 	display: flex;
 	gap: 64px;
 }
+
 .about-hero-content {
 	padding: 75px 0;
 }
+
 .about-hero-highlight {
 	display: inline-block;
 	padding: 2px 6px;
@@ -472,6 +490,7 @@ select:-webkit-autofill:focus {
 	letter-spacing: -0.5px;
 	margin-bottom: 26px;
 }
+
 .about-hero-title {
 	font-family: Nunito, sans-serif;
 	font-size: 48px;
@@ -485,9 +504,11 @@ select:-webkit-autofill:focus {
 .about-hero-text p {
 	margin: 0;
 }
+
 .about-hero-text p:not(:last-child) {
 	margin-bottom: 16px;
 }
+
 .about-hero-image {
 	flex: 0 0 618px;
 	height: 600px;
@@ -504,6 +525,7 @@ select:-webkit-autofill:focus {
 .why-we-exist {
 	border-bottom: 1px solid #e0e6e3;
 }
+
 .why-we-exist__container {
 	padding: 96px 0;
 	background-color: #fff;
@@ -530,10 +552,12 @@ select:-webkit-autofill:focus {
 	flex-direction: column;
 	gap: 48px;
 }
+
 .why-we-exist__item {
 	display: flex;
 	gap: 20px;
 }
+
 .why-we-exist__item::before {
 	display: inline-block;
 	width: 32px;
@@ -545,8 +569,8 @@ select:-webkit-autofill:focus {
 	background-position: center;
 	flex: 0 0 32px;
 }
-.why-we-exist__item-content {
-}
+
+.why-we-exist__item-content {}
 
 .why-we-exist__item-title {
 	margin-top: 0;
@@ -557,6 +581,7 @@ select:-webkit-autofill:focus {
 	letter-spacing: -1px;
 	color: #163a34;
 }
+
 .why-we-exist__item-text {
 	margin: 0;
 }
@@ -566,6 +591,7 @@ select:-webkit-autofill:focus {
 .our-food-philosophy {
 	border-bottom: 1px solid #e0e6e3;
 }
+
 .our-food-philosophy__container {
 	padding: 96px 0;
 	display: flex;
@@ -591,10 +617,12 @@ select:-webkit-autofill:focus {
 	flex-direction: column;
 	gap: 48px;
 }
+
 .our-food-philosophy__item {
 	display: flex;
 	gap: 20px;
 }
+
 .our-food-philosophy__item::before {
 	display: inline-block;
 	width: 32px;
@@ -606,8 +634,8 @@ select:-webkit-autofill:focus {
 	background-position: center;
 	flex: 0 0 32px;
 }
-.our-food-philosophy__item-content {
-}
+
+.our-food-philosophy__item-content {}
 
 .our-food-philosophy__item-title {
 	margin-top: 0;
@@ -618,6 +646,7 @@ select:-webkit-autofill:focus {
 	letter-spacing: -1px;
 	color: #163a34;
 }
+
 .our-food-philosophy__item-text {
 	margin: 0;
 }
@@ -633,8 +662,9 @@ select:-webkit-autofill:focus {
 	gap: 64px;
 	align-items: center;
 }
-.beyond-the-plate__content {
-}
+
+.beyond-the-plate__content {}
+
 .beyond-the-plate__title {
 	font-family: Nunito, sans-serif;
 	font-size: 48px;
@@ -644,21 +674,25 @@ select:-webkit-autofill:focus {
 	margin-top: 0;
 	margin-bottom: 20px;
 }
+
 .beyond-the-plate__text p {
 	margin-top: 0;
 	margin-bottom: 12px;
 }
+
 .beyond-the-plate__list {
 	margin: 0;
 	padding: 0;
 	padding-left: 20px;
 }
-.beyond-the-plate__item {
-}
+
+.beyond-the-plate__item {}
+
 .beyond-the-plate__image {
 	flex: 0 0 744px;
 	height: 400px;
 }
+
 .beyond-the-plate__img {
 	display: block;
 	object-fit: cover;
@@ -675,6 +709,7 @@ select:-webkit-autofill:focus {
 	padding: 80px 230px 64px 230px;
 	text-align: center;
 }
+
 .recipes-intro-heading {
 	font-family: Nunito, sans-serif;
 	font-size: 48px;
@@ -684,4 +719,119 @@ select:-webkit-autofill:focus {
 	margin-top: 0;
 	margin-bottom: 12px;
 	color: #163a34;
+}
+
+
+/* Food Recipes */
+
+.food-recipes {}
+
+.food-recipes__list {}
+
+.recipes-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 32px;
+}
+
+.recipes-item {
+	width: 376px;
+	/* height: 554px; */
+	background-color: #fff;
+	border-radius: 10px;
+}
+
+
+
+.card {
+	padding: 8px;
+}
+
+.card-image {
+	width: 360px;
+	height: 300px;
+	margin-bottom: 16px;
+}
+
+.card-img {
+	display: block;
+	border-radius: 10px;
+	width: 360px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.card-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.card-title {
+	font-family: Nunito, sans-serif;
+	font-size: 20px;
+	line-height: 1.4;
+	letter-spacing: -0.5px;
+	color: #163a34;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.card-text {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: -0.3px;
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+
+.card-meal-infos {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 16px;
+}
+
+.meal-infos div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 16px;
+}
+
+.meal-infos img {
+	width: 20px;
+	height: 20px;
+	display: block;
+	margin-right: 6px;
+}
+
+.meal-infos span {
+	color: #163a34;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: -0.3px;
+}
+
+.meal-infos-servings {}
+
+.meal-infos-prep {}
+
+.meal-infos-cook {}
+
+.main-link {}
+
+.button {}
+
+.recipe-button {
+	display: inline-block;
+	border: none;
+	border-radius: 999px;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: -0.3px;
+	padding: 12px;
+	text-align: center;
+	cursor: pointer;
 }
