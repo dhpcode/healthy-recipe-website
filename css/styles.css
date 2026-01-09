@@ -14,8 +14,7 @@ html {
 
 @font-face {
 	font-family: "Nunito Sans";
-	src: url("../fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf")
-		format("truetype");
+	src: url("../fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf") format("truetype");
 	font-weight: 100 900;
 	font-stretch: 75% 125%;
 }
@@ -151,12 +150,11 @@ select:-webkit-autofill:focus {
 
 /* RETINA BACKGROUNDS */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
-	only screen and (min--moz-device-pixel-ratio: 2),
-	only screen and (-o-min-device-pixel-ratio: 2/1),
-	only screen and (min-device-pixel-ratio: 2),
-	only screen and (min-resolution: 192dpi),
-	only screen and (min-resolution: 2dppx) {
-}
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {}
 
 /* Site header */
 
@@ -214,8 +212,7 @@ select:-webkit-autofill:focus {
 	border-color: #fe9f6b;
 }
 
-.site-header-actions {
-}
+.site-header-actions {}
 
 /* Hero */
 
@@ -310,8 +307,7 @@ select:-webkit-autofill:focus {
 	width: 376px;
 }
 
-.benefits-card {
-}
+.benefits-card {}
 
 .benefits-card-icon {
 	display: flex;
@@ -347,8 +343,7 @@ select:-webkit-autofill:focus {
 	gap: 48px;
 }
 
-.advice-content {
-}
+.advice-content {}
 
 .advice-title {
 	font-weight: 800;
@@ -575,8 +570,7 @@ select:-webkit-autofill:focus {
 	flex: 0 0 32px;
 }
 
-.why-we-exist__item-content {
-}
+.why-we-exist__item-content {}
 
 .why-we-exist__item-title {
 	margin-top: 0;
@@ -641,8 +635,7 @@ select:-webkit-autofill:focus {
 	flex: 0 0 32px;
 }
 
-.our-food-philosophy__item-content {
-}
+.our-food-philosophy__item-content {}
 
 .our-food-philosophy__item-title {
 	margin-top: 0;
@@ -670,8 +663,7 @@ select:-webkit-autofill:focus {
 	align-items: center;
 }
 
-.beyond-the-plate__content {
-}
+.beyond-the-plate__content {}
 
 .beyond-the-plate__title {
 	font-family: Nunito, sans-serif;
@@ -694,8 +686,7 @@ select:-webkit-autofill:focus {
 	padding-left: 20px;
 }
 
-.beyond-the-plate__item {
-}
+.beyond-the-plate__item {}
 
 .beyond-the-plate__image {
 	flex: 0 0 744px;
@@ -733,20 +724,24 @@ select:-webkit-autofill:focus {
 /* Food Recipes */
 
 .food-recipes {
+	padding-bottom: 96px;
 }
 
 /* Filters */
 .food-recipes__filters {
 	margin-bottom: 24px;
 }
+
 .filters {
 	display: flex;
 	justify-content: space-between;
 }
+
 .filters__type {
 	display: flex;
 	gap: 16px;
 }
+
 .filters__time {
 	display: flex;
 	align-items: center;
@@ -763,6 +758,7 @@ select:-webkit-autofill:focus {
 	letter-spacing: -0.3px;
 	cursor: pointer;
 }
+
 .filters__time::after {
 	display: inline-block;
 	width: 20px;
@@ -896,4 +892,8 @@ select:-webkit-autofill:focus {
 	padding: 12px;
 	text-align: center;
 	cursor: pointer;
+}
+
+.recipes-footer {
+	border-top: 1px solid #e0e6e3;
 }
