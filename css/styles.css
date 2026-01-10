@@ -916,3 +916,116 @@ only screen and (min-resolution: 2dppx) {}
 	line-height: 1.3;
 	letter-spacing: -1px;
 }
+
+.mediterranean-chickpea-salad {
+	padding: 48px 0 64px 0;
+	border-bottom: 1px solid #e0e6e3;
+}
+
+.chickpea-salad {}
+
+.recipe-links {
+	display: flex;
+	gap: 4px;
+	font-weight: 600;
+	font-family: Nunito, sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	letter-spacing: -0.3px;
+	color: #163a34;
+	margin-bottom: 16px;
+}
+
+.recipe-links p {
+	margin: 0;
+}
+
+.recipe-links__recipes {
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+.mediterranean-chickpea-salad__card {
+	display: flex;
+	gap: 40px;
+}
+
+.salad-card {}
+
+.salad-card__image {
+	width: 580px;
+	height: 850pxl;
+	border-radius: 16px;
+	flex-shrink: 0;
+}
+
+.salad-card__image img {
+	display: block;
+	object-fit: cover;
+	border-radius: 16px;
+}
+
+.salad-card__content {}
+
+.salad-card__title {
+	font-family: Nunito, sans-serif;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 1.2;
+	letter-spacing: -2px;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.salad-card__description {
+	margin-top: 0;
+}
+
+.salad-card__description+.card-meal-infos {
+	margin-bottom: 20px;
+}
+
+.salad-card__ingredients,
+.salad-card__instructions {
+	font-family: Nunito, sans-serif;
+	font-size: 24px;
+	line-height: 1.3;
+	letter-spacing: -1px;
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+
+.salad-card__ingredients-list,
+.salad-card__instructions-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.salad-card__ingredients-item,
+.salad-card__instructions-item {
+	display: flex;
+	gap: 8px;
+}
+
+.salad-card__ingredients-item:not(:last-child),
+.salad-card__instructions-item:not(:last-child) {
+	margin-bottom: 8px;
+}
+
+.salad-card__ingredients-item::before,
+.salad-card__instructions-item::before {
+	display: inline-block;
+	content: "";
+	width: 24px;
+	height: 24px;
+	background-image: url('../images/icon-bullet-point.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.salad-card__instructions-list {
+	margin-bottom: 0;
+}
+
